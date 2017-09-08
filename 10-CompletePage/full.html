@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<title>Navbar Demo</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css"/>
+		<link href="style.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	
+			<div class="navbar-header">
+				
+				<!--toggle button-->
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" rel="home" href="#">Home</a>
+				</div>
+
+			<div class="collapse navbar-collapse">
+		
+			<ul class="nav navbar-nav">
+				<li><a href="../05-AppForms/02-RegistrationForm.html">Registration</a></li>
+				<li><a href="../05-AppForms/03-LoginForm.html">Login</a></li>
+
+				<li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
+				  <ul class="dropdown-menu">
+					<li><a href="#">Home</a></li>
+					<li class="divider"></li>
+					<li><a href="../05-AppForms/02-RegistrationForm.html">SignUp</a></li>
+					<li><a href="../05-AppForms/03-LoginForm.html">Login</a></li>
+				  </ul>
+				</li>
+			</ul>
+			<a href="../05-AppForms/02-RegistrationForm.html">
+				<button type="button" class="btn btn-primary navbar-btn">Login</button>
+			</a>
+			<a href="../05-AppForms/03-LoginForm.html">
+				<button type="button" class="btn btn-primary navbar-btn">SignUp</button>
+			</a>
+			<div class="col-sm-4 col-md-4 pull-right">
+			<div class="navbar-text">Search</div>
+			<form class="navbar-form" role="search">
+			<div class="input-group">
+				<input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
+				<div class="input-group-btn">
+					<button class="btn btn-primary" type="submit">
+						<i class="glyphicon glyphicon-search"></i>
+					</button>
+				</div>
+			</div>
+			</form>
+		</div>
+		
+	</div>
+</div>
+
+
+<div class="container">
+	<div class="row">
+		
+		
+		
+		
+		<!--left-->
+      <div class="col-md-3" id="leftCol">
+        <ul class="nav nav-stacked" id="sidebar">
+          <li><a href="#con">Content</a></li>
+          <li><a href="#sec">Section</a></li>
+          <li><a href="#">Carousel</a></li>
+          <li><a href="#">Accordion</a></li>
+          <li><a href="#">Section 4</a></li>
+        </ul>
+      </div><!--/left-->
+		
+		<!--right-->
+		<div class="col-md-9">
+			
+        <!-- Carousel
+================================================== -->
+			
+			<h1>Bootstrap Carousel</h1>
+<div id="myCarousel" class="carousel slide">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+    <li data-target="#myCarousel" data-slide-to="4"></li>
+    <li data-target="#myCarousel" data-slide-to="5"></li>
+    <li data-target="#myCarousel" data-slide-to="6"></li>
+  </ol>
+	
+  <div class="carousel-inner">
+	  
+    <div class="item active">
+      <img src="../image/Stok-Range-Ladakh.jpg" style="width:100%;height: 100%" class="img-responsive">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1 class="shadowEffect">Stok Range : Ladakh</h1>
+          <p>Beautiful place to visit in India</p>
+          <p><a class="btn btn-lg btn-primary" href="#">Get tickets</a>
+        </p>
+        </div>
+      </div>
+    </div>
+	  
+    <div class="item">
+      <img src="../image/Chittorgarh-Fort-India.jpg" style="width:100%;height: 100%" class="img-responsive">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1 class="shadowEffect">Indian Chittorgarh Fort</h1>
+          <p>Beautiful place to visit in India</p>
+          <p><a class="btn btn-large btn-primary" href="#">Get tickets</a></p>
+        </div>
+      </div>
+    </div>
+	  
+    <div class="item">
+      <img src="../image/Jaisalmer-Rajasthan.jpg" style="width:100%;height: 100%" class="img-responsive">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1 class="shadowEffect">Jaisalmer : Rajasthan</h1>
+          <p>Beautiful place to visit in India</p>
+          <p><a class="btn btn-large btn-primary" href="#">Get tickets</a></p>
+        </div>
+      </div>
+    </div>
+	  
+    <div class="item">
+      <img src="../image/miami.jpg" style="width:100%;height: 100%" class="img-responsive">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1 class="shadowEffect">Miami</h1>
+          <p>Beautiful place to visit in India</p>
+          <p><a class="btn btn-large btn-primary" href="#">Get tickets</a></p>
+        </div>
+      </div>
+    </div>
+	  
+	  <div class="item">
+      <img src="../image/EAE.jpg" style="width:100%;height: 100%" class="img-responsive">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1 class="shadowEffect">Pracheen Temple</h1>
+          <p>Beautiful place to visit in India</p>
+          <p><a class="btn btn-large btn-primary" href="#">Get tickets</a></p>
+        </div>
+      </div>
+    </div>
+	  
+	  <div class="item">
+      <img src="../image/Yumthang-Valley-Gangtok-Sikkim.jpg" style="width:100%;height: 100%" class="img-responsive">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1 class="shadowEffect">Yumthang Valley in Gangtok : Sikkim</h1>
+          <p>Beautiful place to visit in India</p>
+          <p><a class="btn btn-large btn-primary" href="#">Get tickets</a></p>
+        </div>
+      </div>
+    </div>
+	  
+	  <div class="item">
+      <img src="../image/taj.png" style="width:100%;height: 100%" class="img-responsive">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1 class="shadowEffect">The Taj Mahal</h1>
+          <p>Beautiful place to visit in India</p>
+          <p><a class="btn btn-large btn-primary" href="#">Get tickets</a></p>
+        </div>
+      </div>
+    </div>
+	  
+	  <div class="item">
+      <img src="../image/miami.jpg" style="width:100%;height: 100%" class="img-responsive">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1 class="shadowEffect">Miami</h1>
+          <p>Beautiful place to visit in India</p>
+          <p><a class="btn btn-large btn-primary" href="#">Get tickets</a></p>
+        </div>
+      </div>
+    </div>
+	  
+	  
+  </div>
+	
+	
+  <!-- Controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="icon-prev"></span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="icon-next"></span>
+  </a>  
+</div>
+<!-- /.carousel -->
+			
+	       <hr>	
+		<br/><br/><br/>
+        
+
+		
+		
+		
+		
+		
+		
+			
+				<!-- Tourism messaging
+================================================== -->
+
+	<div class="container">
+<div class="col-md-9 tourism">
+  <!-- Three columns of text below the carousel -->
+    <div class="col-md-4 text-center">
+      <img class="img-circle img-responsive" src="../image/Indian-Culture.jpg">
+      <h2>Indian Tourism</h2>
+      <p>The Ministry of Tourism, is the nodal agency for the formulation of national policies and programmes and for the co-ordination of activities of various Central Government Agencies, State Governments/UTs and the Private Sector for the development and promotion of tourism in the country. This Ministry is headed by the Union Minister of State for Tourism (Independent Charge)</p>
+      <p><a class="btn btn-default" href="#">View details »</a></p>
+    </div>
+    <div class="col-md-4 text-center">
+      <img class="img-circle img-responsive" src="../image/Switzerland_Tourism.JPG">
+      <h2>Switzerland Tourism</h2>
+      <p>This summer, embark on an adventure where the journey is the goal. 
+The Grand Tour of Switzerland links the country’s highlights along one spectacular route: from glaciers to palm trees, from traditional mountain villages to buzzing cities, from simple country accommodation to luxury hotels, from traditional mountain villages to buzzing cities, from simple country accommodation to luxury hotels.</p>
+      <p><a class="btn btn-default" href="#">View details »</a></p>
+    </div>
+    <div class="col-md-4 text-center">
+      <img class="img-circle img-responsive" src="../image/canada.jpeg">
+      <h2>Canada Tourism</h2>
+      <p>Canada has a large domestic and foreign tourism industry. The second largest country in the world, Canada's incredible geographical variety is a significant tourist attractor. Much of the country's tourism is centered on Canada's four largest metropolitan areas, Toronto, Montreal, Vancouver, and Ottawa, well known for their culture, diversity, as well as the many national parks and historic sites.</p>
+      <p><a class="btn btn-default" href="#">View details »</a></p>
+    </div>
+	</div>
+
+
+		</div><!--Tourism container-->
+			
+			
+			<hr/>
+			
+			<div class="col-md-12">
+			
+			
+			
+			
+				<h1>Bootstrap Forms</h1>
+				<!--forms-->
+				<div class="row">
+			
+			<!--registration form-->
+          <div class="col-md-6">
+            <div class="panel panel-default">
+              <div class="panel-heading"><h3>Registration Form</h3></div>
+              <div class="panel-body">
+		  <!-- To center the form on the screen we can use Bootstrap grid’s offset methods such as “col-md-offset-4” -->
+  <div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">Please sign up <small>It's free!</small></h3>
+      </div>
+      <div class="panel-body">
+        <form role="form">
+          <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-6">
+              <div class="form-group">
+                <input type="text" name="first_name" class="form-control input-sm" placeholder="First Name">
+            </div>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6">
+              <div class="form-group">
+                <input type="text" name="last_name" class="form-control input-sm" placeholder="Last Name">
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <input type="email" name="email" class="form-control input-sm" placeholder="Email Address">
+          </div>
+
+          <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-6">
+              <div class="form-group">
+                <input type="password" name="password" class="form-control input-sm" placeholder="Password">
+              </div>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6">
+              <div class="form-group">
+                <input type="password" name="password_confirmation" class="form-control input-sm" placeholder="Confirm Password">
+              </div>
+            </div>
+          </div>
+
+          <input type="submit" value="Register" class="btn btn-info btn-block">
+
+        </form>
+      </div>
+    </div>
+	  <div class="text-center">
+      <a href="03-LoginForm.html" class="text-info">Already have an account? Login</a>
+    </div>
+  </div>
+		  
+
+              </div>
+            </div>
+          </div><!--registration form-->
+					
+					
+					
+					<!--login form-->
+					<div class="col-md-6">
+            <div class="panel panel-default">
+              <div class="panel-heading"><h3>Login Form</h3></div>
+              <div class="panel-body">
+				  <div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">Please Login</h3>
+      </div>
+      <div class="panel-body">
+        <form role="form">
+          <div class="form-group">
+            <input type="email" name="email" class="form-control input-sm" placeholder="Email Address">
+          </div>
+
+          <div class="form-group">
+            <input type="password" name="password" class="form-control input-sm" placeholder="Password">
+          </div>
+
+          <input type="submit" value="Login" class="btn btn-info btn-block">
+            <label>
+              <a href="/#" class="text-danger">Forgot Password?</a>
+            </label>
+
+        </form>
+      </div>
+    </div>
+	  <div class="text-center">
+      <a href="02-RegistrationForm.html" class="text-info">Don't have an account? Register</a>
+    </div>
+  </div>
+		  
+            </div>
+          </div>
+					<!--login form-->
+				</div>
+				<!--/forms-->
+				
+				
+				
+				<hr/>
+				
+				
+				<!--inner column count is further 12-->
+        	<div class="col-md-12">
+				<h1>Bootstrap Accordion</h1>
+            </div>
+        <!--accordion-->
+            <div class="col-md-12">
+
+                <div class="panel-group" id="accordion">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h4 class="panel-title panel-title-adjust">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                    <i class="fa fa-plus"></i>Lorem ipsum dolor sit amet
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+           Vivamus sagittis egestas mauris ut vehicula. Cras viverra ac orci ac aliquam.
+           Nulla eget condimentum mauris, eget tincidunt est. Quisque in luctus ligula.
+           Aenean eget ligula id nulla ornare placerat vel a nulla. 
+          Duis lobortis purus auctor eros rhoncus, sed tempor est molestie.
+           Nulla eget condimentum mauris, eget tincidunt est. Quisque in luctus ligula.
+           Aenean eget ligula id nulla ornare placerat vel a nulla. 
+          Duis lobortis purus auctor eros rhoncus, sed tempor est molestie.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h4 class="panel-title panel-title-adjust">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                    <i class="fa fa-plus"></i>Aenean eget ligula id nulla
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+           Vivamus sagittis egestas mauris ut vehicula. Cras viverra ac orci ac aliquam.
+           Nulla eget condimentum mauris, eget tincidunt est. Quisque in luctus ligula.
+           Aenean eget ligula id nulla ornare placerat vel a nulla. 
+          Duis lobortis purus auctor eros rhoncus, sed tempor est molestie.
+           Nulla eget condimentum mauris, eget tincidunt est. Quisque in luctus ligula.
+           Aenean eget ligula id nulla ornare placerat vel a nulla. 
+          Duis lobortis purus auctor eros rhoncus, sed tempor est molestie.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h4 class="panel-title panel-title-adjust">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                    <i class="fa fa-plus"></i>Duis lobortis purus auctor
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+           Vivamus sagittis egestas mauris ut vehicula. Cras viverra ac orci ac aliquam.
+           Nulla eget condimentum mauris, eget tincidunt est. Quisque in luctus ligula.
+           Aenean eget ligula id nulla ornare placerat vel a nulla. 
+          Duis lobortis purus auctor eros rhoncus, sed tempor est molestie.
+           Nulla eget condimentum mauris, eget tincidunt est. Quisque in luctus ligula.
+           Aenean eget ligula id nulla ornare placerat vel a nulla. 
+          Duis lobortis purus auctor eros rhoncus, sed tempor est molestie.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h4 class="panel-title panel-title-adjust">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapsefour">
+                                    <i class="fa fa-plus"></i>Nulla eget condimentum mauris
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapsefour" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+           Vivamus sagittis egestas mauris ut vehicula. Cras viverra ac orci ac aliquam.
+           Nulla eget condimentum mauris, eget tincidunt est. Quisque in luctus ligula.
+           Aenean eget ligula id nulla ornare placerat vel a nulla. 
+          Duis lobortis purus auctor eros rhoncus, sed tempor est molestie.
+           Nulla eget condimentum mauris, eget tincidunt est. Quisque in luctus ligula.
+           Aenean eget ligula id nulla ornare placerat vel a nulla. 
+          Duis lobortis purus auctor eros rhoncus, sed tempor est molestie.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h4 class="panel-title panel-title-adjust">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapsefive">
+                                    <i class="fa fa-plus"></i>Placerat vel a nulla
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapsefive" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+           Vivamus sagittis egestas mauris ut vehicula. Cras viverra ac orci ac aliquam.
+           Nulla eget condimentum mauris, eget tincidunt est. Quisque in luctus ligula.
+           Aenean eget ligula id nulla ornare placerat vel a nulla. 
+          Duis lobortis purus auctor eros rhoncus, sed tempor est molestie.
+           Nulla eget condimentum mauris, eget tincidunt est. Quisque in luctus ligula.
+           Aenean eget ligula id nulla ornare placerat vel a nulla. 
+          Duis lobortis purus auctor eros rhoncus, sed tempor est molestie.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!--accordion-->
+
+			</div>
+		</div><!--right-->
+		</div>
+	
+	
+	
+	</div><!-- /.container -->
+		
+	<!-- script references -->
+		<script src="../jquery/jquery-1.11.1.min.js"></script>
+		<script src="../bootstrap/js/bootstrap.min.js"></script>
+		
+		<!--Affix script-->
+		<script>
+			$(document).ready(function(){/* activate sidebar */
+				$('#sidebar').affix();
+
+				/* activate scrollspy menu */
+				$(document.body).scrollspy({
+					target: '#sidebar'
+				});
+
+			});
+		</script>
+	</body>
+</html>

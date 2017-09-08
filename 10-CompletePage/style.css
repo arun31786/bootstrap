@@ -1,0 +1,66 @@
+body{
+				margin-top: 50px;
+				padding-top: 50px;
+				padding-bottom: 40px;
+		  background: url("../image/wild_flowers.png");
+	background-attachment: fixed;
+
+		}
+
+		.centered-form .panel{
+		  background: hsla(0, 0%, 65%, 0.56);
+		  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3);
+		}
+
+		.centered-form{
+		  margin-top: 60px;
+		}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 400px;
+  background-color:#555;
+}
+
+
+.tourism.img-circle{
+	width: 140px;
+}
+
+
+.shadowEffect {
+  color: blue;
+  text-shadow:
+    0 1px #808d93,
+    -1px 0 #cdd2d5,
+    -1px 2px #808d93,
+    -2px 1px #cdd2d5,
+    -2px 3px #808d93,
+    -3px 2px #cdd2d5,
+    -3px 4px #808d93,
+    -4px 3px #cdd2d5,
+    -4px 5px #808d93,
+    -5px 4px #cdd2d5,
+    -5px 6px #808d93,
+    -6px 5px #cdd2d5,
+    -6px 7px #808d93,
+    -7px 6px #cdd2d5,
+    -7px 8px #808d93,
+    -8px 7px #cdd2d5;
+}
+
+#sidebar{
+	position: fixed;
+}
+
+/*small and extra small devices*/
+@media screen and (max-width: 991px) {
+  #sidebar{
+	position: static;
+  }
+}

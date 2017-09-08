@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Bootstrap App powered by TKHTS</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css"/>
+	  
+	<style>
+		body{
+		  background: url("../image/eight_horns.png");
+		}
+
+		.centered-form .panel{
+		  background: hsla(0, 0%, 65%, 0.56);
+		  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3);
+			
+		}
+
+		.centered-form{
+		  margin-top: 60px;
+		}
+	</style>
+  </head>
+
+  <body>
+	  
+<!--
+Login form should have	  
+	Email ("email")
+	Password (type "password")
+	forgot password link
+	Submit button
+-->
+
+	  <!--container will be in center-->
+    <div class="container">
+		
+		<!--centered-form is custom class for custom css -->
+      <div class="row centered-form">
+		  
+		  <!-- To center the form on the screen we can use Bootstrap grid’s offset methods such as “col-md-offset-4” -->
+  <div class="col-xs-12 col-sm-8 col-md-4 col-sm-offset-2 col-md-offset-4">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">Please Login</h3>
+      </div>
+      <div class="panel-body">
+        <form role="form">
+          <div class="form-group">
+            <input type="email" name="email" class="form-control input-sm" placeholder="Email Address">
+          </div>
+
+          <div class="form-group">
+            <input type="password" name="password" class="form-control input-sm" placeholder="Password">
+          </div>
+
+          <input type="submit" value="Login" class="btn btn-info btn-block">
+            <label>
+              <a href="/#" class="text-danger">Forgot Password?</a>
+            </label>
+
+        </form>
+      </div>
+    </div>
+	  <div class="text-center">
+      <a href="02-RegistrationForm.html" class="text-info">Don't have an account? Register</a>
+    </div>
+  </div>
+		  
+</div>
+    </div>
+	<!-- bootsrap modal window, dropdown, etc requires jquery -->
+    <script src="../jquery/jquery-1.11.1.min.js"></script>
+    <!-- Bootstrap JS -->
+	<script src="../bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
